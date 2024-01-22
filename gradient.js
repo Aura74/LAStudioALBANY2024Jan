@@ -1,5 +1,18 @@
 document.getElementById("credit-card").addEventListener("click", function () {
-  window.location.href = "http://lastudio.se";
+  window.location.href = "https://witty-plant-0caac5803.4.azurestaticapps.net/";
+});
+
+document.getElementById("slack-invoice").addEventListener("click", function () {
+  window.location.href =
+    "https://wonderful-water-029697803.4.azurestaticapps.net";
+});
+
+document.getElementById("phone").addEventListener("click", function () {
+  window.location.href = "https://kind-beach-09d973303.4.azurestaticapps.net/";
+});
+
+document.getElementById("dash").addEventListener("click", function () {
+  window.location.href = "https://github.com/Aura74";
 });
 
 function normalizeColor(hexCode) {

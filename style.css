@@ -53,8 +53,18 @@
   margin-left: -100px;
 }
 
-.imgBorder {
-  border: solid black 2px;
+.labilder {
+  border: solid black 7px !important;
+}
+.laBilder:hover {
+  transform: scale(1.05);
+  transition: 300ms linear;
+  opacity: 80%;
+  border: solid red 1px;
+}
+
+.elem:hover {
+  transform: scale(1.1);
 }
 
 html,
@@ -449,6 +459,14 @@ p {
   box-shadow: var(--standard-box-shadow);
   /* border-radius: var(--standard-border-radius); */
   border-radius: 20px;
+  transition: 300ms linear;
+  border: solid rgb(0, 0, 0) 1px;
+}
+
+#credit-card:hover {
+  transform: scale(1.05);
+  opacity: 80%;
+  border: solid red 1px;
 }
 #slack-invoice {
   grid-area: slack;
