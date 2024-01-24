@@ -17,9 +17,9 @@ document.getElementById("dash").addEventListener("click", function () {
 
 function normalizeColor(hexCode) {
   return [
-    ((hexCode >> 16) & 255) / 255,
-    ((hexCode >> 8) & 255) / 255,
-    (255 & hexCode) / 255,
+    ((hexCode >> 16) & 20) / 255,
+    ((hexCode >> 8) & 0) / 255,
+    (55 & hexCode) / 255,
   ];
 }
 ["SCREEN", "LINEAR_LIGHT"].reduce(

@@ -47,6 +47,18 @@
     #83e2ff 96.96%
   );
 }
+.movingIcon {
+  height: 100px !important;
+  width: auto;
+}
+
+#laH1St {
+  /* height: 170px; */
+  width: 100%;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 #lastudiologo {
   height: 150px;
@@ -181,6 +193,7 @@ p {
   flex-direction: column;
   align-items: start;
   justify-content: center;
+  text-align: justify;
 }
 
 .logoBild {
@@ -198,6 +211,12 @@ p {
   padding-top: 5%;
   padding-left: 5%;
   padding-top: 5%;
+  padding-right: 5%;
+  text-align: justify;
+}
+
+.dinKlass {
+  text-align: justify;
 }
 
 .two-column > .col-right {
@@ -357,6 +376,7 @@ p {
   width: 100%;
   display: flex;
   justify-content: center;
+  margin-top: -50px; /* var inget när h1 bara var text   */
 }
 
 .hero p {
